@@ -1,0 +1,12 @@
+server:
+  port: 8081
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  server:
+    enableSelfPreservation: false
+    eviction-interval-timer-in-ms: 5000
+  instance:
+    lease-expiration-duration-in-seconds: 3
+    lease-renewal-inverval-in-seconds: 1
